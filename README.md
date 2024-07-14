@@ -1,4 +1,4 @@
-# GNU/Linux Dotfiles
+# hyprsettings
 
 An GTK4 application for managing privacy settings through a graphical user interface. It provides button to clear clipboard history and command history with simple button clicks.
 
