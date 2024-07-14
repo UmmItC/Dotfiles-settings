@@ -1,3 +1,5 @@
 src
 dist
 pkg
+*.tar.zst
+*.tar.gz
