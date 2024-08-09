@@ -81,7 +81,6 @@ class MainWindow(Gtk.ApplicationWindow):
             message_type=Gtk.MessageType.QUESTION,
             buttons=Gtk.ButtonsType.YES_NO,
             text="Are you sure you want to clear the clipboard history?",
-            title="Clear clipboard history - " + title_str
         )
         dialog.connect("response", self.on_clipboard_dialog_response)
         dialog.present()
@@ -94,7 +93,6 @@ class MainWindow(Gtk.ApplicationWindow):
             message_type=Gtk.MessageType.QUESTION,
             buttons=Gtk.ButtonsType.YES_NO,
             text="Are you sure you want to clear the command history?",
-            title="Clear command history - " + title_str
         )
         dialog.connect("response", self.on_history_dialog_response)
         dialog.present()
