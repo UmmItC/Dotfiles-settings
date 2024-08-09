@@ -16,7 +16,7 @@ Lazy, and i want try GTK4 :D
 ## Usage
 
 ```bash
-python gtk4.py
+python hyprsettings.py
 ```
 ## License
 
